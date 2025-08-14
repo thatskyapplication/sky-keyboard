@@ -1,0 +1,15 @@
+{
+	"private": "true",
+	"type": "module",
+	"scripts": {
+		"build": "tsc",
+		"test": "tsc --noEmit",
+		"format": "biome check --write",
+		"lint": "biome check"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.2.0",
+		"typescript": "^5.9.2"
+	},
+	"packageManager": "pnpm@10.14.0"
+}

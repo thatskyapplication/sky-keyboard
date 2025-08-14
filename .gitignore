@@ -1,0 +1,10 @@
+# Debug
+test.js
+test.ts
+
+# dependencies
+node_modules
+
+# Miscellaneous
+.DS_Store
+distribution/
