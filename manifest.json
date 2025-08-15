@@ -4,7 +4,7 @@
 	"name": "Sky Keyboard",
 	"version": "1.0.0",
 	"description": "Enhancements for the Sky Keyboard.",
-	"permissions": ["activeTab"],
+	"permissions": [],
 	"content_scripts": [
 		{
 			"matches": ["https://keyboard.sky.thatgame.co/*"],
