@@ -12,10 +12,10 @@ function findTextArea() {
 
 function findSubmitButton() {
 	return (
-		document.querySelector<HTMLButtonElement>('button[aria-label="submit message"]') ||
+		document.querySelector<HTMLButtonElement>('button[aria-label="submit message"]') ??
 		Array.from(
 			document.querySelectorAll<HTMLButtonElement>('button[class*="MuiIconButton-root"]'),
-		).find((btn) => btn.getAttribute("aria-label") === "submit message") ||
+		).find((btn) => btn.getAttribute("aria-label") === "submit message") ??
 		null
 	);
 }
