@@ -30,7 +30,6 @@ function handleKeyDown(event: KeyboardEvent) {
 	const submitButton = findSubmitButton();
 	if (submitButton) {
 		submitButton.click();
-		console.log("Sky Keyboard: Message submitted via Enter key");
 	}
 }
 
@@ -39,7 +38,7 @@ function setupEnterKeyListener() {
 
 	if (textArea) {
 		textArea.addEventListener("keydown", handleKeyDown);
-		console.log("Sky Keyboard Extension: Enter key listener added");
+		console.log("Sky Keyboard Extension is running!");
 		return true;
 	}
 
