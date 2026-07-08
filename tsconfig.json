@@ -9,16 +9,15 @@
 		"noUncheckedIndexedAccess": true,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
-		"strict": true,
 		"module": "NodeNext",
-		"moduleResolution": "NodeNext",
+		"resolveJsonModule": true,
 		"verbatimModuleSyntax": true,
 		"newLine": "lf",
+		"rootDir": "source",
 		"outDir": "distribution",
-		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true,
 		"lib": ["ESNext", "DOM"],
 		"target": "ESNext",
 		"skipLibCheck": true
-	}
+	},
+	"include": ["source/**/*.ts"]
 }
